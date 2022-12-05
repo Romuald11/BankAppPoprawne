@@ -17,14 +17,29 @@ public class User {
         this.accountNumber = 1;
     }
 
-    public String nicknameGenerator(String name, String surname);
-    return(name.substring(0,3)+surname.substring(0,3));
-}
-public void userDetails() {
-    System.out.println("Numer konta"+accountNumber+"Imię"+name+"Nazwisko"+surname+"pesel"+pesel+"saldo+balance");}
-public double deposit(double money){
-    return balance=balance+money;
-}
-public double getBalance(){
-    return balance;
+    public String nicknameGenerator(String name, String surname) {
+        return (name.substring(0, 3) + surname.substring(0, 3));
+    }
+
+    public void userDetails() {
+        System.out.println("Numer konta" + accountNumber + "Imię" + name + "Nazwisko" + surname + "pesel" + pesel + "saldo+balance");
+    }
+
+    public double deposit(double money) {
+        return balance = balance + money;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public double withdraw(double money) {
+        if (money > balance) {
+            System.out.println("Brak wystraczających środków na koncie");
+        } else {
+            balance = balance - money;
+        }
+        return balance;
+
+    }
 }

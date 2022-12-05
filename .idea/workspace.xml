@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8551004f-c8fa-4385-b86b-a5b289e2f481" name="Changes" comment="dodanie metody userDetails">
+    <list default="true" id="8551004f-c8fa-4385-b86b-a5b289e2f481" name="Changes" comment="dodanie metody deposite">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/User.java" afterDir="false" />
@@ -83,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670266063614</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dodanie metody deposite">
+      <created>1670267059879</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670267059879</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dodanie User" />
     <MESSAGE value="dodanie metody userDetails" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodanie metody userDetails" />
+    <MESSAGE value="dodanie metody deposite" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodanie metody deposite" />
   </component>
 </project>
